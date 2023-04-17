@@ -1,2 +1,2 @@
 # CS1102 Project
-View Website at: https://farabi231.github.io/project/index.html
+View Website at: www.farabi231.github.io/project/
