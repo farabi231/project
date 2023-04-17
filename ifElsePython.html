@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python If Else Statements</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<style>
+		head, body {
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+		.mainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #145996;
+			font-size: 80px;
+			margin-top: 2%;
+			margin-right: 15%;
+			margin-left: 15%;
+			margin-bottom: 5px;
+		}
+		.subMainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #145996;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		h3, .variableintroduction, img {margin-left: 20%; margin-right: 20%;}
+		h3 {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		.variableintroduction {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 25px;
+			line-height: 2 ;
+		}
+		ul {
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			font-size: 25px;
+			color: #0f2342;
+		  display: table;
+		  margin: 0 auto;
+		}
+		
+		.homeButton {
+			background: #7bbd00;
+		}
+		.button {
+			display: flex;
+			width: auto;
+			height: 40px;
+			padding: 0;
+			border: none;
+			outline: none;
+			border-radius: 8px;
+			overflow: hidden;
+			font-family: "Open Sans", sans-serif;
+			font-size: 16px;
+			font-weight: Bold;
+			cursor: pointer;
+			margin:10px;
+			transition: .2s ease-in-out;
+			float: left;
+			margin-bottom: 25px;
+		}
+		.button:hover{transform: scale(1.05); filter: saturate(0.7);}
+		.button:active{filter: saturate(0.2);}
+		.button_group{align-items: center; display: flex; justify-content: center;}
+		.button_group:after { content: ""; clear: both; display: table;}
+		
+		.buttonIcon,
+		.buttonText {
+			display: inline-flex;
+			align-items: center;
+			padding: 0 24px;
+			color: white;
+			height: 100%;
+		}
+		.buttonIcon{
+			font-size: 1em;
+			background: rgba(0, 0, 0, 0.05)
+		}
+		
+		footer{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		header, footer{
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			margin-top: 0px;
+			margin-bottom: 50px;
+		}
+		
+	</style>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1 class="mainText">Introduction to Python</h1>
+	<h2 class="subMainText">Learn more about the python programming Lanuage</h2>
+	<div class='button_group' >
+		<button type="button" class="button homeButton" onclick="window.location.href = 'index.html';">
+			<span class='buttonText'>Home</span>
+			<span class='buttonIcon'> 
+				<img src='assets/homeIcon.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+	</div>
+	<hr>
+	
+	<br></br>
+	<h3>Python If Else Statements</h3>
+	<br></br>
+	<h4 class='variableintroduction'>Python's if-else statements enable developers to create code that makes decisions based on specific conditions. These statements are frequently employed in programming to regulate the flow of a program based on a set of rules or criteria.
+	</h4>
+	<h4 class='variableintroduction'>The fundamental syntax of an if-else statement in Python is as follows: </h4>
+	<img src='assets/ifElseImg1.png' alt='If Else Example 1' width="50%" height="50%">
+	<br></br>
+	<h4 class='variableintroduction'>To write an if-else statement in Python, the syntax starts with the if keyword, which is followed by a condition that needs to be evaluated. If the condition is found to be true, the code inside the if block is executed. In case the condition is false, the code inside the else block is executed instead.
+	</h4>
+	<br></br>
+	<h4 class='variableintroduction'>If-else statements are a versatile feature that can be applied in many different scenarios in daily life. For instance, they can be used in a basic program to determine whether a user is an adult by checking if they have reached their age against the age limit. Here's an example: 
+	</h4>
+	<img src='assets/ifElseImg2.png' alt='If Else Example 2' width="50%" height="50%">
+	<br></br>
+	<h4 class='variableintroduction'>In this example, the user is prompted to enter a their age. The program then uses an if-else statement to determine whether the person meet the required age requirement. If the number is equal to or above 18, the program will grant access to the user. If the number is below 18, the program prints will deny access..
+	</h4>
+	<br></br>
+	<h4 class='variableintroduction'>In summary, if-else statements are a crucial aspect of programming in Python and have multiple applications. They enable programmers to make decisions based on certain conditions and manage the flow of a program based on logical rules. By having a good understanding of if-else statements, programmers can develop sophisticated and adaptable programs that can be utilized in various everyday contexts.</h4>
+	<br></br>
+	
+<footer>
+	<p>&copy; By students of CS1102 Introduction to Computer Science 2023. All rights reserved.</p>
+</footer>
+</body>
+</html>

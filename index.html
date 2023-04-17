@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction to Python</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<style>
+		head, body {
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+		.mainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #145996;
+			font-size: 80px;
+			margin-top: 20%;
+			margin-right: 15%;
+			margin-left: 15%;
+			margin-bottom: 5px;
+		}
+		.subMainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #145996;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		.arrowAsset {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 175px;
+			width: 80px;
+			height: 80px;
+		}
+		h3, .introduction, img {margin-left: 20%; margin-right: 20%;}
+		h3 {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		.introduction {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 25px;
+			line-height: 2 ;
+		}
+		
+		.variableButton {
+			background: #35bb9b;
+		}
+		.operatorButton {
+			background: #5e9cea;
+		}
+		.dictionaryButton {
+			background: #fb6d51;
+		}
+		.ifElseButton {
+			background: #fecd57;
+		}
+		.dateButton {
+			background: #9ed36a;
+		}
+		.button {
+			display: flex;
+			width: auto;
+			height: 70px;
+			padding: 0;
+			border: none;
+			outline: none;
+			border-radius: 15px;
+			overflow: hidden;
+			font-family: "Open Sans", sans-serif;
+			font-size: 16px;
+			font-weight: Bold;
+			cursor: pointer;
+			margin:10px;
+			transition: .2s ease-in-out;
+			float: left;
+		}
+		.button:hover{transform: scale(1.05); filter: saturate(0.7);}
+		.button:active{filter: saturate(0.2);}
+		.button_group{align-items: center; display: flex; justify-content: center;}
+		.button_group:after { content: ""; clear: both; display: table;}
+		
+		.buttonIcon,
+		.buttonText {
+			display: inline-flex;
+			align-items: center;
+			padding: 0 24px;
+			color: white;
+			height: 100%;
+		}
+		.buttonIcon{
+			font-size: 1em;
+			background: rgba(0, 0, 0, 0.05)
+		}
+		header, footer{
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			margin-top: 0px;
+			margin-bottom: 50px;
+			color: #0f2342;
+		}
+		
+	</style>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header><b>Student:</b> Dibyu ABM Farabi Shaomin <b>StudentID:</b> 57149801</header>
+	<h1 class="mainText">Introduction to Python Programming Language</h1>
+	<h2 class="subMainText">Learn more about the python programming Lanuage</h2>
+	<div class="arrowAsset"><img src='assets/greyArrowDown.svg' alt='Down arrow'/></div>
+	<h3>Welcome to our site.</h3>
+	<h4 class='introduction'>Our website provides a comprehensive guide to the Python programming language, geared towards school students. Python's user-friendly syntax and broad range of applications make it an ideal introductory language for young learners interested in programming.</h4>
+	<h4 class='introduction'>Python has gained widespread popularity as a high-level programming language that is versatile, easy to use, and applicable to a wide range of fields. Created by and publicly realsed by Guido van Rossum in 1991. Python has been extensively used in scientific computing, web development, data analysis, artificial intelligence, and machine learning, among other areas. Its human-readable syntax makes it an excellent language for both beginners and experts.</h4>
+	<h4 class='introduction'>This website is aimed at introducing users to the basic features of the Python programming language. Through a series of tutorials and interactive exercises, users can learn how to install Python, run scripts, and use its core components such as variables, operators, and data types. Additionally, the website will cover control flow constructs, functions, modules, and libraries, all of which are essential for any programming task.</h4>
+	<h4 class='introduction'>Regardless of whether you are an experienced programmer or a complete beginner, this website provides a comprehensive introduction to Python that can be applied in various contexts. By the end of your journey, you will have a solid understanding of Python and be well-equipped to delve into more advanced topics.</h4>
+	<h4 class='introduction'>Below are some of the topics we feel suited to take a deep look into.</h4>
+	
+	</br>
+	<div class='button_group' >
+		<button type="button" class="button variableButton" onclick="window.location.href = 'variablesPython.html';">
+			<span class='buttonText'>Variables</span>
+			<span class='buttonIcon'> 
+				<img src='assets/box.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+		
+		<button type="button" class="button operatorButton" onclick="window.location.href = 'operatorsPython.html';">
+			<span class='buttonText'>Operators</span>
+			<span class='buttonIcon'> 
+				<img src='assets/operatorSign.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+	</div>
+	
+	<div class='button_group' >
+		<button type="button" class="button dictionaryButton" onclick="window.location.href = 'dictionariesPython.html';">
+			<span class='buttonText'>Dictionaries</span>
+			<span class='buttonIcon'> 
+				<img src='assets/DictionaryLogo.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+		
+		<button type="button" class="button ifElseButton" onclick="window.location.href = 'ifElsePython.html';">
+			<span class='buttonText'>If Else</span>
+			<span class='buttonIcon'> 
+				<img src='assets/ifElseIcon.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+	</div>		
+	
+		<div class='button_group' >
+		<button type="button" class="button dateButton" onclick="window.location.href = 'dateTimePython.html';">
+			<span class='buttonText'>Dates</span>
+			<span class='buttonIcon'> 
+				<img src='assets/dateLogo.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+		
+		<button type="button" class="button button6"> <!-- onclick="window.location.href = 'reference.html';"> -->
+			<span class='buttonText'>Coming Soon..</span>
+			<span class='buttonIcon'> 
+				<img src='assets/questionMark.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+	</div>
+<footer>
+	</br>
+	<p>&copy; By students of CS1102 Introduction to Computer Science 2023. All rights reserved.</p>
+</footer>
+</body>
+</html>

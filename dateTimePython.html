@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python Datetime</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<style>
+		head, body {
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+		.mainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #145996;
+			font-size: 80px;
+			margin-top: 2%;
+			margin-right: 15%;
+			margin-left: 15%;
+			margin-bottom: 5px;
+		}
+		.subMainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #145996;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		h3, .variableintroduction, img {margin-left: 20%; margin-right: 20%;}
+		h3 {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		.variableintroduction {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 25px;
+			line-height: 2 ;
+		}
+		ul {
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			font-size: 25px;
+			color: #0f2342;
+		  display: table;
+		  margin: 0 auto;
+		}
+		
+		.homeButton {
+			background: #7bbd00;
+		}
+		.button {
+			display: flex;
+			width: auto;
+			height: 40px;
+			padding: 0;
+			border: none;
+			outline: none;
+			border-radius: 8px;
+			overflow: hidden;
+			font-family: "Open Sans", sans-serif;
+			font-size: 16px;
+			font-weight: Bold;
+			cursor: pointer;
+			margin:10px;
+			transition: .2s ease-in-out;
+			float: left;
+			margin-bottom: 25px;
+		}
+		.button:hover{transform: scale(1.05); filter: saturate(0.7);}
+		.button:active{filter: saturate(0.2);}
+		.button_group{align-items: center; display: flex; justify-content: center;}
+		.button_group:after { content: ""; clear: both; display: table;}
+		
+		.buttonIcon,
+		.buttonText {
+			display: inline-flex;
+			align-items: center;
+			padding: 0 24px;
+			color: white;
+			height: 100%;
+		}
+		.buttonIcon{
+			font-size: 1em;
+			background: rgba(0, 0, 0, 0.05)
+		}
+		
+		footer{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		header, footer{
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			margin-top: 0px;
+			margin-bottom: 50px;
+		}
+		
+	</style>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1 class="mainText">Introduction to Python</h1>
+	<h2 class="subMainText">Learn more about the python programming Lanuage</h2>
+	<div class='button_group' >
+		<button type="button" class="button homeButton" onclick="window.location.href = 'index.html';">
+			<span class='buttonText'>Home</span>
+			<span class='buttonIcon'> 
+				<img src='assets/homeIcon.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+	</div>
+	<hr>
+	
+	<br></br>
+	<h3>Python Datetime</h3>
+	<br></br>
+	<h4 class='variableintroduction'>Dates in Python can be defined by using the built in datetime library, this module imports numerous class methods and functions which allows developers to manipulate time data with ease, this is especially useful if users of Python is working with timeseries datatypes and want to make comparisons easily.
+	</h4>
+	<br></br>
+	<h4 class='variableintroduction'>One key feature of the module is that it also makes it easy working with Unix timestamps. The Unix timestamp is a measure of time which displays the number of seconds passed from a predetermined date, the predetermined date is currently set to the 1st of January 1970, the format is popular because it converts dates to an integer and is widely compatible by coding languages of different kind.
+	</h4>
+	<br></br>
+	<h4 class='variableintroduction'>Another key feature of the datetime module is that it allows converting text in string format to datetime values. Often, humans note down dates in a human readable format, however, this format is not readable by code and is difficult to represent it digitally. The datetime module introduces the .strptime() function, which reads human readable dates and converts it to a datetime object, this object can then be easily be formatted by other functions within the module.
+	</h4>
+
+	
+<footer>
+	<p>&copy; By students of CS1102 Introduction to Computer Science 2023. All rights reserved.</p>
+</footer>
+</body>
+</html>

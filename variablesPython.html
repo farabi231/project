@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python Variables</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<style>
+		head, body {
+			margin-left: 15%;
+			margin-right: 15%;
+		}
+		.mainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #145996;
+			font-size: 80px;
+			margin-top: 2%;
+			margin-right: 15%;
+			margin-left: 15%;
+			margin-bottom: 5px;
+		}
+		.subMainText {
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #145996;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		h3, .variableintroduction, img {margin-left: 20%; margin-right: 20%;}
+		h3 {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: bold;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		.variableintroduction {
+			text-align: left;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			color: #0f2342;
+			font-size: 25px;
+			margin-top: 0px;
+			margin-bottom: 25px;
+			line-height: 2 ;
+		}
+		ul {
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			font-size: 25px;
+			color: #0f2342;
+		  display: table;
+		  margin: 0 auto;
+		}
+		
+		.homeButton {
+			background: #7bbd00;
+		}
+		.button {
+			display: flex;
+			width: auto;
+			height: 40px;
+			padding: 0;
+			border: none;
+			outline: none;
+			border-radius: 8px;
+			overflow: hidden;
+			font-family: "Open Sans", sans-serif;
+			font-size: 16px;
+			font-weight: Bold;
+			cursor: pointer;
+			margin:10px;
+			transition: .2s ease-in-out;
+			float: left;
+			margin-bottom: 25px;
+		}
+		.button:hover{transform: scale(1.05); filter: saturate(0.7);}
+		.button:active{filter: saturate(0.2);}
+		.button_group{align-items: center; display: flex; justify-content: center;}
+		.button_group:after { content: ""; clear: both; display: table;}
+		
+		.buttonIcon,
+		.buttonText {
+			display: inline-flex;
+			align-items: center;
+			padding: 0 24px;
+			color: white;
+			height: 100%;
+		}
+		.buttonIcon{
+			font-size: 1em;
+			background: rgba(0, 0, 0, 0.05)
+		}
+		
+		footer{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		header, footer{
+			text-align: center;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 300;
+			margin-top: 0px;
+			margin-bottom: 50px;
+		}
+		
+	</style>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1 class="mainText">Introduction to Python</h1>
+	<h2 class="subMainText">Learn more about the python programming Lanuage</h2>
+	<div class='button_group' >
+		<button type="button" class="button homeButton" onclick="window.location.href = 'index.html';">
+			<span class='buttonText'>Home</span>
+			<span class='buttonIcon'> 
+				<img src='assets/homeIcon.png' alt='Down arrow' height=50%/>
+			</span>
+		</button>
+	</div>
+	<hr>
+	
+	<br></br>
+	<h3>Python Variables</h3>
+	<br></br>
+	<h4 class='variableintroduction'>Python variables are an essential part of the Python programming language. They are used to store values and data types within a Python program, and allow developers to manipulate and use these values throughout the program.
+	</h4>
+	<br></br>
+	<h4 class='variableintroduction'>A Python variable is essentially an object that is used to refer to a value or data type. These names are created by assigning a value to a keyword using the equal operator(‘=’). Once a variable has been created, it can be used throughout the program to access and modify the value it contains. Unlike many other coding languages, Python variables are dynamically typed, which means they do not need to be declared before use.
+	</h4>
+	<br></br>
+	<h4 class='variableintroduction'>One of the key features of Python variables is their ability to store different data types, some of the most common ones are as follows:</h4>
+	<ul>
+		<li>Numbers: Integer & floats</li>
+		<li>Strings: Stores word characters</li>
+		<li>Booleans: True or False</li>
+		<li>Lists: Where items are stored in order of there time added</li>
+		<li>Tuples: Same properties as list but is immutable and items can’t be removed</li>
+		<li>Dictionaries: Variables can be assigned to keys</li>
+	</ul>
+	<br></br>
+	<h4 class='variableintroduction'>Besides simple data types, Python variables can also contain intricate entities like classes, functions, and modules. This enables programmers to produce code that is exceptionally modular and reusable, which can be conveniently distributed and adjusted for diverse projects.
+	</h4>
+	<br></br>
+	<h4 class='variableintroduction'>Similar to JavaScript, Python variables can contain letters, numbers or even underscores, however, they may not begin with numbers as the interpreter within Python will not be able to distinguish it with regular number values. It is to be noted that variable names in Python are case-sensitive, this means that variable names such as ‘var1’ and ‘Var1’ represents two completely different items in the memory space. On the contrary, since Python is a high level language, it supports one line value swapping statements(eg. a, b = b, a) which is not possible in traditional coding languages using JavaScript
+	</h4>
+	
+<footer>
+	<p>&copy; By students of CS1102 Introduction to Computer Science 2023. All rights reserved.</p>
+</footer>
+</body>
+</html>
